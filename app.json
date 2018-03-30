@@ -1,0 +1,31 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#272822",
+    "navigationBarTitleText": "你好  世界",
+    "navigationBarTextStyle":"white",
+    "backgroundColor": "#eeeeee",
+    "enablePullDownRefresh":true
+  },
+  "tabBar":{
+  	"backgroundColor":"#000000",
+    "borderStyle":"#ccc",
+    "list":[
+    	{
+    		"pagePath":"pages/index/index",
+    		"text":"首页",
+    		"iconPath":"icons/shouye.png",
+    		"selectedIconPath":"icons/shouye(1).png"
+    	},{
+    		"pagePath":"pages/logs/logs",
+    		"text":"尾页",
+    		"iconPath":"icons/shezhi.png",
+    		"selectedIconPath":"icons/shezhi(1).png"
+    	}
+    ]
+  }
+}
